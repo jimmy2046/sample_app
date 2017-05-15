@@ -8,6 +8,10 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
+
+# bcrypt for password encription
+gem 'bcrypt',         '3.1.11'
+
 # Use Bookstrap
 gem 'bootstrap-sass', '3.3.6'
 #         add `gem 'rails-controller-testing'` to your Gemfile.
