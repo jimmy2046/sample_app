@@ -12,6 +12,13 @@ gem 'rails', '~> 5.0.1'
 # bcrypt for password encription
 gem 'bcrypt',         '3.1.11'
 
+# faker for creating sample users for testing
+gem 'faker',          '1.7.3'
+
+# For pagination
+gem 'will_paginate',           '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
+
 # Use Bookstrap
 gem 'bootstrap-sass', '3.3.6'
 #         add `gem 'rails-controller-testing'` to your Gemfile.
